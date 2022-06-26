@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body main{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+body main section{
+    width: calc(50% - 64px);
+    margin: 32px;
+}
+
+body main section form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+body main section form label{
+    width: 100%;
+}
+
+body main section form label input{
+    width: inherit;
+    padding: 4px;
+    margin: 4px;
+}
+
+body main section form button{
+    background-color: #199ed2;
+    border-style: none;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+body main section form button:hover{
+    background-color: #1483ad;
+    cursor: pointer;
+}
+
+body footer{
+    background-color: #282828;
+    color: white;
+    padding: 32px;
+}
+
+body footer p{
+    text-align: center;
+}
